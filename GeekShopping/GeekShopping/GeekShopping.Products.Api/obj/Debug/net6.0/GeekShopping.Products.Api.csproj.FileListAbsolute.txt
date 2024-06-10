@@ -43,4 +43,4 @@ D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Products.
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Products.Api\obj\Debug\net6.0\GeekShopping.Products.Api.pdb
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Products.Api\obj\Debug\net6.0\GeekShopping.Products.Api.genruntimeconfig.cache
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Products.Api\obj\Debug\net6.0\ref\GeekShopping.Products.Api.dll
-D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Products.Api\obj\Debug\net6.0\GeekShop.8ED4F9C1.Up2Date
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Products.Api\obj\Debug\net6.0\GeekShopping.Products.Api.csproj.CopyComplete

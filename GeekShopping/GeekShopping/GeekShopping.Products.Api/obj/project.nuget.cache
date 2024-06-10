@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Y/2o3bOfzdXj24I6of3dXRbUZyH4MKxg+DdtZsCrSLiqYIWXrmPyHhjHEOisGLnpjZ7zpgWINtr5ks9vSuZoHw==",
+  "dgSpecHash": "M5WKIGd4/2s4iQHNjOldKoi6U2RWPFTYU2K8Nhgt+UA54RYqGv4uwIP7EuIpvii2BGIBwXMemoO6c16T8GuUiw==",
   "success": true,
   "projectFilePath": "D:\\Itens\\microsservices_dotnet6\\GeekShopping\\GeekShopping\\GeekShopping.Products.Api\\GeekShopping.Products.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Angelo\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
-    "C:\\Users\\Angelo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Angelo\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Angelo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Angelo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Angelo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Angelo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.31\\microsoft.entityframeworkcore.6.0.31.nupkg.sha512",
     "C:\\Users\\Angelo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.31\\microsoft.entityframeworkcore.abstractions.6.0.31.nupkg.sha512",
     "C:\\Users\\Angelo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.31\\microsoft.entityframeworkcore.analyzers.6.0.31.nupkg.sha512",
@@ -35,16 +36,5 @@
     "C:\\Users\\Angelo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\Angelo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Versão detectada do pacote fora da restrição de dependência: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requer AutoMapper (= 12.0.1), mas a versão AutoMapper 13.0.1 foi resolvida.",
-      "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

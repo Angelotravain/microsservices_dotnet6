@@ -1,4 +1,10 @@
+using GeekShopping.Web.Services.IServices;
+using GeekShopping.Web.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHttpClient<IProductService, ProductService>(
+    c => c.BaseAddress = new Uri(builder.Configuration["ServicesUrls:ProductApi"]));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
@@ -10,6 +16,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
