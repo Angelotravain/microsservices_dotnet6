@@ -353,3 +353,12 @@ D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\obj\D
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.pdb
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.genruntimeconfig.cache
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\ref\GeekShopping.Web.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\System.Security.Permissions.dll

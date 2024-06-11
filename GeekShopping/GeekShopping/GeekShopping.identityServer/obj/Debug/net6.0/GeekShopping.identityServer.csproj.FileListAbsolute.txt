@@ -383,3 +383,4 @@ D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.identityS
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.identityServer\bin\Debug\net6.0\Humanizer.dll
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.identityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.identityServer\obj\Debug\net6.0\GeekShopping.identityServer.csproj.CopyComplete
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping\GeekShopping.identityServer\bin\Debug\net6.0\keys\is-signing-key-F33FE118FD58FB15B7500C1646A3506D.json
