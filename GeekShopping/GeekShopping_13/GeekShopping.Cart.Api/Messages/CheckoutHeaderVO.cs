@@ -1,6 +1,8 @@
-﻿namespace GeekShopping.Web.Models
+﻿using GeekShopping.CartAPI.Data.ValueObjects;
+
+namespace GeekShopping.CartAPI.Messages
 {
-    public class CartHeaderViewModel
+    public class CheckoutHeaderVO
     {
         public long Id { get; set; }
         public string UserId { get; set; }
@@ -16,6 +18,6 @@
         public string CVV { get; set; }
         public string MouthYear { get; set; }
         public int? CartTotalItens { get; set; }
-        public IEnumerable<CartDetailViewModel>? CartDetails { get; set; }
+        public IEnumerable<CartDetailVO>? CartDetails { get; set; }
     }
 }
