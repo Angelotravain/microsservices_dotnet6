@@ -106,3 +106,7 @@ D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping_13\GeekShopping.Cart.A
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping_13\GeekShopping.Cart.Api\obj\Debug\net6.0\GeekShopping.CartAPI.genruntimeconfig.cache
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping_13\GeekShopping.Cart.Api\obj\Debug\net6.0\ref\GeekShopping.CartAPI.dll
 D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping_13\GeekShopping.Cart.Api\obj\Debug\net6.0\GeekShopping.CartAPI.csproj.CopyComplete
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping_13\GeekShopping.Cart.Api\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping_13\GeekShopping.Cart.Api\bin\Debug\net6.0\System.Threading.Channels.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping_13\GeekShopping.Cart.Api\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+D:\Itens\microsservices_dotnet6\GeekShopping\GeekShopping_13\GeekShopping.Cart.Api\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
