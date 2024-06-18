@@ -9,8 +9,11 @@ using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var connection = "server=localhost;database=geekshopping_cart_api;user=root;password=root;";
 
 builder.Services.AddScoped<ICartRepository, CartRepository>();
+builder.Services.AddScoped<ICouponRepository, CouponRepository>();
+builder.Services.AddHttpClient<ICouponRepository, CouponRepository>(s => s.BaseAddress = new Uri("https://localhost:4450/"));
 builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 builder.Services.AddControllers();
 builder.Services.AddAuthentication("Bearer")
@@ -65,7 +68,6 @@ builder.Services.AddSwaggerGen(c =>
         }
      });
 });
-var connection = "server=localhost;database=geekshopping_cart_api;user=root;password=root;";
 
 builder.Services.AddDbContext<MySQLContext>(options => options.UseMySql(connection, new MySqlServerVersion(new Version(5, 5, 13))));
 
