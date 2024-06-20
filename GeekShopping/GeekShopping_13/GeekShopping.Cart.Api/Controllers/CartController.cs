@@ -82,7 +82,7 @@ namespace GeekShopping.CartAPI.Controllers
             if (!string.IsNullOrEmpty(vo.CouponCode))
             {
                 CouponVO coupon = await _couponRepository.GetCoupon(vo.CouponCode, token);
-                if(vo.DiscountTotal != coupon.DiscountAmout)
+                if (vo.DiscountTotal != coupon.DiscountAmout)
                 {
                     return StatusCode(412);
                 }
@@ -91,6 +91,8 @@ namespace GeekShopping.CartAPI.Controllers
             vo.Time = DateTime.Now;
 
             _rabbitMqMessageSender.SendMessage(vo, "checkoutqueue");
+
+            await _cartRepository.ClearCart(vo.UserId);
 
             return Ok(vo);
         }
